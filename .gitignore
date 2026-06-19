@@ -1,9 +1,13 @@
 # Ignore everything by default
 *
 
+# Allow traversal into key directories
+!themes/
+!plugins/
+
 # Track only our custom code
-!flatsome-child/
-!flatsome-child/**
+!themes/flatsome-child/
+!themes/flatsome-child/**
 !plugins/cph-core/
 !plugins/cph-core/**
 !mu-plugins/
