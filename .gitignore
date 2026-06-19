@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Track only our custom code
+!flatsome-child/
+!flatsome-child/**
+!plugins/cph-core/
+!plugins/cph-core/**
+!mu-plugins/
+!mu-plugins/**
+!coloring_pipeline.py
+!.gitignore
+
+# Ignore OS files
+.DS_Store
+**/.DS_Store
